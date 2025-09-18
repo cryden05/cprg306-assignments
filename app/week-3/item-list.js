@@ -87,6 +87,6 @@ export default function ItemList(){
             <Item props={item10} />
             <Item props={item11} />
             <Item props={item12} />
-        </ul>    
+       </ul>    
     )
 }
