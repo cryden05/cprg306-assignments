@@ -61,7 +61,7 @@ const item10 = {
 };
 
 const item11 = {
-  name: "Dish soap 🧼",
+  name: "Dish soap 🍽️",
   quantity: 1,
   category: "household",
 };
