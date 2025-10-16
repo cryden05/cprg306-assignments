@@ -35,10 +35,10 @@ export default function NewItem(){
                 >Increment
                 </button>
                 <button
-                className={`w-32 py-2 px-4 border-2 rounded-2xl ${
-                quantity <= 1
-                    ? "bg-gray-400 cursor-not-allowed"
-                    : "hover:bg-red-600"
+                    className={`w-32 py-2 px-4 border-2 rounded-2xl ${
+                        quantity <= 1
+                            ? "bg-gray-400 cursor-not-allowed"
+                            : "hover:bg-red-600"
                 }`}
                 onClick={decrement}
                 disabled={quantity <= 1}
